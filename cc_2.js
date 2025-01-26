@@ -46,3 +46,18 @@ employee.position = "Sales Associate";
 
 //Logging the updated object to the console
 console.log("Updated employee object:", employee);
+
+//Task 4 - Customer Database
+
+//Declaring an array called customers with initial customer objects
+let customers = [
+    {name: "Kelsey Tucker", email: "ktucker132@gmail.com", purchaseAmount: 150},
+    {name: "Jay Walsh", email: "jwalsh5@gmail.com", purchaseAmount: 125},
+    {name: "Neil Goldberg", email: "ngoldberg53@gmail.com", purchaseAmount: 140}
+];
+
+//Add a new customer object to the array
+customers.push({name: "Anna Baxter", email: "abaxter63@gmail.com", purchaseAmount: 165});
+
+//Logging the entire customer array to the console
+console.log("Customer list:", customers);
