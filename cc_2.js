@@ -61,3 +61,21 @@ customers.push({name: "Anna Baxter", email: "abaxter63@gmail.com", purchaseAmoun
 
 //Logging the entire customer list to the console
 console.log("Customer list:", customers);
+
+//Task 5 - Order Processing System
+
+//Declaring an object called order with initial properties
+let order = {
+    orderId: 10, 
+    customerName: "Chuck Watson",
+    amount: 115 
+};
+
+//Calculate the tax based on the order amount (10% tax rate)
+order.calculateTax = function (taxRate = 0.1) {
+    return this.amount * taxRate; //Returns the tax amount
+};
+
+//Logging the order details and tax amount to the console
+console.log("Order details:", order);
+console.log("Tax amount:", order.calculateTax());
