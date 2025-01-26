@@ -59,5 +59,5 @@ let customers = [
 //Add a new customer object to the array
 customers.push({name: "Anna Baxter", email: "abaxter63@gmail.com", purchaseAmount: 165});
 
-//Logging the entire customer array to the console
+//Logging the entire customer list to the console
 console.log("Customer list:", customers);
